@@ -10,5 +10,6 @@ public class Click : MonoBehaviour,IPointerClickHandler
     {
         print(transform.name);
         Mole.Score += 10;
+        
     }
 }
